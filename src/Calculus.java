@@ -1,10 +1,10 @@
 public class Calculus {
-    void calculate(double a, double b) {
+    double calculate(double a, double b) {
         if (a > b) {
-            System.out.println(a + b);
+          return (a + b);
         }else if (a < b) {
-            System.out.println(a * b);
-        } else System.out.println(a * b);
+            return (a * b);
+        } else return (a * b);
     }
 }
     /*

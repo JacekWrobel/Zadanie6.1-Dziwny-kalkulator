@@ -9,7 +9,8 @@ public class TestCalculus {
         System.out.println("druga to... ");
         double y = scanner.nextDouble();
 
-        System.out.println("Uzycie kalkulatora magicznego daje wynik");
-        calculus.calculate(x, y);
+        double calcResult = calculus.calculate(x, y);
+        System.out.println("Uzycie kalkulatora magicznego daje wynik... " +calcResult);
+
     }
 }
